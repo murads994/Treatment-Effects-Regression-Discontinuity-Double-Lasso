@@ -10,3 +10,9 @@ Today, we'll try to estimate the effect of a special covariate - Treatment $d$, 
 
 Our Treatment Effect Model Looks Like: 
 $$\mathbb{E}[y|d,x]= \alpha + d\gamma + x'\beta $$
+
+, and we want to interpret the treatment effect $\gamma$ casually. 
+
+
+
+
