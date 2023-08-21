@@ -56,7 +56,7 @@ Regression Discontinuity(RD) is the last topic we will be covering in this proje
 * In RD, we measure the causal effects of interventions by analyzing elements close to a threshold above or below which an intervention is assigned.
 * It is a non-parametric estimation.
   
-  $$ Y = \alpha + \tau D + \beta_{1} (X-c) + \beta_{2} D (X-c) + \epsilon $$
+$$  Y = \alpha + \tau D + \beta_{1} (X-c) + \beta_{2} D (X-c) + \epsilon $$
   
 * c is the treatment cutoff.
 * $D$ is a binary variable equal to 1 if $X \geq c$
