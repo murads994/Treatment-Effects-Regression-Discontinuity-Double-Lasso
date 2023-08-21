@@ -13,6 +13,7 @@ $$\mathbb{E}[y|d,x]= \alpha + d\gamma + x'\beta $$
 
 , and we want to interpret the treatment effect $\gamma$ casually. 
 
+A coefficient is structural or casual if it represents a real-world effect i.e. $\gamma$ represents a change in $y$ when $d$ moves independent of any other influencers ( both in $x$ or those we have omitted). In contrast, a reduced model is a simple representation of the effect of $x$ on $y$, without worrying about causal mechanisms. 
 
 
 
