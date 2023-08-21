@@ -49,3 +49,5 @@ Two Stages:
 
 Including $\hat{d}(x)$ unpenalized in [2], ensures that confounder effects on $d$ have been removed: thus $\hat{\gamma}$ measures the effect of $\nu$. 
 
+## Regression Discontinuity
+
