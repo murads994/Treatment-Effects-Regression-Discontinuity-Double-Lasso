@@ -9,4 +9,4 @@ Today, we'll try to estimate the effect of a special covariate - Treatment $d$, 
 * d is some policy tool, like interest rates or product price.
 
 Our Treatment Effect Model Looks Like: 
-$$\mathbb{E}[y|d,x]= \alpha + d\gamma + x'\beta $
+$$\mathbb{E}[y|d,x]= \alpha + d\gamma + x'\beta $$
