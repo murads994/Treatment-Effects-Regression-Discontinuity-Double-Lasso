@@ -41,4 +41,11 @@ So, $\hat{\gamma}$ is identified as the effect of $\nu$, the independent part of
 
 Say, $d=\hat{d}(x) + \nu$. We want the effect of $\nu$. So, we can estimate $d=\hat{d}(x)$ directly and include it in regression! Any leftover effect of $d$ will be attributable to $d-\hat{d}(x) = \nu$. Controlling for $\hat{d}(x)$ in regression is equivalent to estimating $\hat{\gamma}$ as the effect of $\nu$: the independent part of $d$. If $\hat{\gamma} \neq 0$ then $d$ has an independent casual effect on y.
 
+# Treatment Effect Lasso a.k.a. Double Lasso
+
+Two Stages:
+* Estimate $\hat{d}(x) with Lasso Regression of $d$ on $x$.
+* Do a lasso of $y$ on $[d,\hat{d}(x), x]$ with  $\hat{d}(x)$ unpenalized.
+
+Including $\hat{d}(x)$ unpenalized in [2], ensures that confounder effects on $d$ have been removed: thus $\hat{gamma}$ measures the effect of $\nu$. 
 
