@@ -35,5 +35,5 @@ With $x$ in the regression model, inference for $\gamma$ is measured from the ef
 
 $$ \mathbb{E}[y|d,x] = d\gamma + x'\beta = (x'\tau + \nu) \gamma + x'\beta = \nu\gamma + x'(\gamma \tau + \beta) $$
 
-So, \hat{\gamma} is identified as the effect of \nu, the independent part of $d$.
+So, $\hat{\gamma}$ is identified as the effect of $\nu$, the independent part of $d$.
 
