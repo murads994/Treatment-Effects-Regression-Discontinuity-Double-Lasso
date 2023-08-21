@@ -47,5 +47,5 @@ Two Stages:
 * Estimate $\hat{d}(x)$ with Lasso Regression of $d$ on $x$.
 * Do a lasso of $y$ on $[d,\hat{d}(x), x]$ with  $\hat{d}(x)$ unpenalized.
 
-Including $\hat{d}(x)$ unpenalized in [2], ensures that confounder effects on $d$ have been removed: thus $\hat{gamma}$ measures the effect of $\nu$. 
+Including $\hat{d}(x)$ unpenalized in [2], ensures that confounder effects on $d$ have been removed: thus $\hat{\gamma}$ measures the effect of $\nu$. 
 
