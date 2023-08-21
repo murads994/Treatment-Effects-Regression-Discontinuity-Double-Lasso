@@ -39,6 +39,6 @@ So, $\hat{\gamma}$ is identified as the effect of $\nu$, the independent part of
 
 # How can we achieve that? 
 
-Say, $d=\hat{d}(x) + \nu$. We want the effect of $\nu$. So, we can estimate $d=\hat{d}(x)$ directly and include it in regression! Any leftover effect of $d$ will be attributable to $d-\hat{d}(x) = \nu$. Controlling for $d=\hat{d}(x)$ in regression is equivalent to estimating $\hat{\gamma}$ as the effect of $\nu$: the independent part of $d$. If $\hat{\gamma} \neq 0$ then $d$ has an independent casual effect on y.
+Say, $d=\hat{d}(x) + \nu$. We want the effect of $\nu$. So, we can estimate $d=\hat{d}(x)$ directly and include it in regression! Any leftover effect of $d$ will be attributable to $d-\hat{d}(x) = \nu$. Controlling for $\hat{d}(x)$ in regression is equivalent to estimating $\hat{\gamma}$ as the effect of $\nu$: the independent part of $d$. If $\hat{\gamma} \neq 0$ then $d$ has an independent casual effect on y.
 
 
