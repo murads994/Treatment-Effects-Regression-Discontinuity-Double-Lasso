@@ -33,9 +33,5 @@ A coefficient is structural or casual if it represents a real-world effect i.e. 
 
 With $x$ in the regression model, inference for $\gamma$ is measured from the effect of the bit of $d$ that is not predictable by $x$. For example, say $d = x'\tau + \nu$, where $\nu$ is a random noise (residual). Then: 
 
-$$ \mathbb{E}[y|d,x] = d\gamma + x'\beta $$
-
-$$ = (x'\tau + \nu) \gamma + x'\beta $$
-
-$$ = \nu\gamma + x'(\gamma\tau + \beta)$$
+$$ \mathbb{E}[y|d,x] = d\gamma + x'\beta = (x'\tau + \nu) \gamma + x'\beta = \nu\gamma + x'(\gamma \tau + \beta) $$
 
