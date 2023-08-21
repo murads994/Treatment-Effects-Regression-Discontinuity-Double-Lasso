@@ -37,3 +37,8 @@ $$ \mathbb{E}[y|d,x] = d\gamma + x'\beta = (x'\tau + \nu) \gamma + x'\beta = \nu
 
 So, $\hat{\gamma}$ is identified as the effect of $\nu$, the independent part of $d$.
 
+# How can we achieve that? 
+
+Say, $d=\hat{d}(x) + \nu$. We want the effect of $\nu$. So, we can estimate $d=\hat{d}(x)$ directly and include it in regression! Any left over effect of $d$ will be attributable to $d-\hat{d}(x) = \nu$
+
+
